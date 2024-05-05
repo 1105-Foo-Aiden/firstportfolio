@@ -5,6 +5,7 @@ import Link from "next/link";
 import PokeApi from "./Assets/PokeApi.png"
 import CourtMonitor from "./Assets/Courtmonitor.png"
 
+
 export default function Home() {
   return (
     <>
@@ -17,7 +18,9 @@ export default function Home() {
         </div>
         <div className="flex justify-end pr-24">
           <Image src={HeadShot} alt="Headshot" width={200} height={200}></Image>
+          
         </div>
+        <a href="./Resume.pdf" className="decoration-none text-3xl" target="blank">Find out more on my Resume</a>
       </div>
       <br />
       <br />
@@ -91,6 +94,9 @@ export default function Home() {
             <Link href={"https://www.linkedin.com/in/aiden-foo-58ba262bb/"} target="blank" className="decoration-none">LinkedIn</Link>
             
           </p>
+          </div>
+          <div className="text-2xl">
+            Eamil: aidenfoo154@gmail.com or by Phone at (209)-479-2805
           </div>
       </div>
     </div>
