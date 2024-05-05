@@ -50,7 +50,7 @@ export default function Home() {
       <div className=" grid grid-cols-2 pt-8">
         <div className="text-2xl">
           Languages:
-          <div>
+          <div> 
             <ul className="grid grid-cols-2">
               <li>C#</li>
               <li>Python</li>
