@@ -29,7 +29,7 @@ export default function Home() {
       <p className="text-3xl flex justify-start indent-10">Projects</p>
       <hr className="border-1 border-white " />
       <div className="grid grid-cols-3 pt-10 h-fit">
-        <div className="grid grid-rows-2 h-fit w-fit ">
+        <div className="grid grid-rows-2 h-fit w-96 ">
           <Link href={"https://weatherreactbuild-eight.vercel.app"} target="blank" className="flex justify-center">
           <Image src={WeatherApp} alt="Weather App" className="rounded-md" height={300} width={400}/>
           </Link>
