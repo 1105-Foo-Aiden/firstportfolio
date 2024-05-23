@@ -56,7 +56,7 @@ export default function Home() {
         <div className="text-2xl">
           Languages:
           <div> 
-            <ul className="flex row-span-1 gap-2 justify-center mt-5">
+            <ul className="flex flex-row  gap-4 justify-center mt-5">
               <li>
                 <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
               </li>
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <div className="text-2xl">
           Frameworks:
-          <ul className="flex row-span-1 gap-2 justify-center mt-5">
+          <ul className="flex row-span-1 gap-4 justify-center mt-5">
             <li>
               <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" />
             </li>
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
         <div className="text-2xl">
         Technologies:
-        <ul className="flex row-span-1 gap-2 justify-center mt-5">
+        <ul className="flex row-span-1 gap-4 justify-center mt-5">
           <li>
             <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" />
           </li>
