@@ -12,7 +12,7 @@ export default function Home()  {
   return (
     <>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <div className="min-h-screen text-center bg-[#151515] text-[#EEEEEE] p-10">
+    <div className="min-h-screen text-center bg-[#322C2B] text-white px-24 py-10">
       <div className="grid grid-cols-2">
         <div>
           <h1 className="text-4xl">Aiden Foo</h1>
@@ -64,49 +64,49 @@ export default function Home()  {
       <br />
       <br />
       <p className="text-3xl flex justify-start indent-10">Skills</p>
-      <hr className="border-1 border-white " />
-      <div className="grid grid-cols-2 pt-8">
+      <hr className="border-1 border-white" />
+      <div className="grid grid-cols-2 pt-8 gap-12">
         <div className="text-3xl">
           Languages:
           <div> 
-            <ul className="flex flex-row gap-4 mt-5">
+            <ul className="flex flex-row gap-4 mt-5 justify-center">
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"C Sharp"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"C Sharp"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"C"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"C"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Python"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Python"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Azure SQL"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Azure SQL"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"HTML5"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"HTML5"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"JavaScript"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"JavaScript"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"TypeScript"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"TypeScript"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-white bg-gray-600 px-3 text-xl rounded-md" content={"CSS"} trigger="hover">
+                <Popover arrow={false} className="text-white bg-[#E4C59E] px-3 text-xl rounded-md" content={"CSS"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                 </Popover>
               </li>
@@ -115,24 +115,24 @@ export default function Home()  {
         </div>
         <div className="text-3xl">
           Frameworks:
-          <ul className="flex flex-row gap-4 mt-5">
+          <ul className="flex flex-row gap-4 mt-5 justify-center">
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Dot net"} trigger="hover">
-                  <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" />
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Dot net"} trigger="hover">
+                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" />
               </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Next JS"} trigger="hover">
-                  <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Next JS"} trigger="hover">
+                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
               </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Tailwind Css"} trigger="hover">
-                  <img className="w-32 mt-[-30px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Tailwind Css"} trigger="hover">
+                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
               </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Node JS"} trigger="hover">
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Node JS"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
               </Popover>
             </li>
@@ -140,59 +140,59 @@ export default function Home()  {
         </div>
         <div className="text-3xl">
         Technologies:
-        <ul className="flex flex-row gap-4 mt-5">
+        <ul className="flex flex-row gap-4 mt-5 justify-center">
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Slack"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Slack"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Azure"} trigger="hover">
-                  <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Azure"} trigger="hover">
+                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"VSCode"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"VSCode"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Jira"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Jira"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Unity"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Unity"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Git"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Git"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Postman"} trigger="hover">
-                <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"/>
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Postman"} trigger="hover">
+              <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"/>
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Vercel"} trigger="hover">
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Vercel"} trigger="hover">
               <i className="text-6xl devicon-vercel-original"></i>
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Github"} trigger="hover">
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Github"} trigger="hover">
               <i className="text-6xl devicon-github-original"></i>
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Android Studio"} trigger="hover">
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Android Studio"} trigger="hover">
               <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" />
             </Popover>
           </li>
           <li>
-            <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Figma"} trigger="hover">
+            <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Figma"} trigger="hover">
               <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
             </Popover>
           </li>
@@ -200,24 +200,24 @@ export default function Home()  {
         </div>
         <div className="text-3xl">
           Libraries:
-          <ul className="flex flex-row gap-4 mt-5">
+          <ul className="flex flex-row gap-4 mt-5 justify-center">
             <li>
-                <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"React Bootstrap"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"React Bootstrap"} trigger="hover">
                       <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg"/>
                 </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"React"} trigger="hover">
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"React"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
               </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Flowbite"} trigger="hover">
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Flowbite"} trigger="hover">
                   <Image src={Flowbite} alt="flowbite" width={60} height={60}/>
               </Popover>
             </li>
             <li>
-              <Popover arrow={false} className="text-[#EEEEEE] bg-gray-600 px-3 text-xl rounded-md" content={"Bootstrap"} trigger="hover">
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Bootstrap"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
               </Popover>
             </li>
@@ -240,9 +240,7 @@ export default function Home()  {
           <Link href={"https://www.linkedin.com/in/aiden-foo-58ba262bb/"} target="blank" className="decoration-none">   <img className="h-28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /></Link>
         </div>
           <div className="text-2xl mt-3">
-            <p>
-              Eamil: aidenfoo154@gmail.com
-            </p> 
+            <p>Email: aidenfoo154@gmail.com</p> 
           </div>
       </div>
     </div>
