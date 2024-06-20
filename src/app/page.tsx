@@ -12,7 +12,7 @@ export default function Home()  {
   return (
     <>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <div className="min-h-screen text-center bg-[#322C2B] text-white px-24 py-10">
+    <div className="min-h-screen text-center bg-[#161312] text-white px-24 py-10">
       <div className="grid grid-cols-2">
         <div>
           <h1 className="text-4xl">Aiden Foo</h1>
@@ -52,7 +52,7 @@ export default function Home()  {
             calling from Apis and displaying the data</pre>
         </div>
         <div className="grid grid-rows-2 h-fit w-fill">
-          <Link href={"https://fullstack-frontend-git-kylebranch-jeriahs-projects-b6db9779.vercel.app"} target="blank" className="flex justify-center">
+          <Link href={"https://zealous-tree-095d4381e.5.azurestaticapps.net"} target="blank" className="flex justify-center">
             <Image src={CourtMonitor} alt="Court Monitor" className="rounded-md" height={300} width={400}/>
           </Link>
           <pre className="text-3xl pt-5 h-fit">Court Monitor {'\n'} 
@@ -106,7 +106,7 @@ export default function Home()  {
                 </Popover>
               </li>
               <li>
-                <Popover arrow={false} className="text-white bg-[#E4C59E] px-3 text-xl rounded-md" content={"CSS"} trigger="hover">
+                <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"CSS"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                 </Popover>
               </li>
@@ -134,6 +134,11 @@ export default function Home()  {
             <li>
               <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Node JS"} trigger="hover">
                   <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+              </Popover>
+            </li>
+            <li>
+              <Popover arrow={false} className="text-[#EEEEEE] bg-[#332C2B] px-3 text-xl rounded-md" content={"Django"} trigger="hover">
+                  <img className="w-16" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
               </Popover>
             </li>
           </ul>
