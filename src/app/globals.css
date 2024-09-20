@@ -5,6 +5,7 @@
 .imageZoom {
   transition: transform 0.2s ease-in;
 }
+
 .imageZoom:hover {
   --webkit-transform: scale(1.5);
   transform: scale(1.5);

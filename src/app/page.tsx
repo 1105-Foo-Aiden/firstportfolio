@@ -37,13 +37,6 @@ export default function Home() {
               height={200}
             />
           </div>
-          <a
-            href="./Resume.pdf"
-            className="decoration-none text-2lg w-fit flex items-center"
-            target="blank"
-          >
-            Find out more on my Resume
-          </a>
         </div>
         <br />
         <br />
@@ -287,7 +280,9 @@ export default function Home() {
               />
               <PopoverComponent
                 label="Flowbite"
-                custom={<Image src={Flowbite} alt="flowbite" width={60} height={60} />}
+                custom={
+                  <Image src={Flowbite} alt="flowbite" width={60} height={60} />
+                }
               />
               <PopoverComponent
                 label="React Bootstrap"
