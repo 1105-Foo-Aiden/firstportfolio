@@ -2,58 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-.imageZoom {
-  transition: transform 0.2s ease-in;
-}
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .imageZoom:hover {
   --webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-.breathingText {
-  -webkit-animation: breathing 2s ease-in-out infinite normal;
-  animation: breathing 2s ease-in-out infinite normal;
+body{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  min-width: screen;
+  height: screen;
+  background-color: #080808;
+  font-family: ui-serif, Georgia, 'Times New Roman', Times, serif;
 }
 
-@-webkit-keyframes breathing {
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  animation: prixClipFix 2s linear infinite;
+}
+.loader::after {
+  inset: 8px;
+  transform: rotate3d(90, 90, 0, 180deg);
+  border-color: #ff3d00;
+}
+
+@keyframes rotate {
   0% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  25% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    transform: rotate(360deg);
   }
 }
 
-@keyframes breathing {
+@keyframes prixClipFix {
   0% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
   }
   50% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
   }
-  60% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-  }
+  75%,
   100% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
   }
+}
+
+.white-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 2px, solid, rgb(255 255 255 / 0.1 );
+  height: fit-content;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+:any-link:hover{
+  text-decoration: underline;
+  color: #1c64f2;
 }
