@@ -6,9 +6,15 @@ import PokeApi from "./Assets/PokeApi.png";
 import CourtMonitor from "./Assets/Courtmonitor.png";
 import { useRouter } from "next/navigation";
 import NavbarComponent from "./Components/NavbarComponent";
+import ImageComponent from "./Components/ImageComponent";
 
 export default function Home() {
+  const dotnetSvg = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+  const awsSvg = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+  const reactSvg = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+  const azureDBSvg = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
   const router = useRouter();
+  const icons = [dotnetSvg, awsSvg, reactSvg, azureDBSvg]
   return (
     <>
       <body>
@@ -16,13 +22,13 @@ export default function Home() {
           <div className="flex justify-center">
             <NavbarComponent/>
           </div>
-          <div className="mt-24 grid grid-cols-2 mx-36">
-            <div className="grid w-96 text-center">
+          <div className="mt-24 grid grid-cols-2 w-10/12">
+            <div className="grid pl-44 w-full text-center">
               <div>
-                <h1 className="text-5xl text-[#FFFFFF] pt-4">Aiden Foo</h1>
+                <h1 className="text-5xl text-white pt-4">Aiden Foo</h1>
               </div>
-              <div className="">
-                <p className="text-[#9C9C9C]">
+              <div>
+                <p>
                   Greetings, my name is Aiden Foo, I am a software developer
                   with over 1800 hours of coding experience and always willing to put
                   in the work to learn and grow my skills to be the best version
@@ -42,14 +48,19 @@ export default function Home() {
                 src={HeadShot}
                 alt="headshot"
                 className="w-64 rounded-full "
-              />
+                />
             </div>
           </div>
           {/* Worked with */}
-          <div className="text-[#9C9C9C] text-2xl mx-36 mt-20">
-            Worked with:
-            <div className="text-[#9C9C9C] grid grid-flow-col mt-2 grid-rows-1 gap-8">
-              <div className="white-container">
+          <div className="text-2xl mx-40 mt-20">
+            Frameworks Worked With:
+            <div className="grid grid-flow-col mx-16 mt-10 grid-rows-1 gap-8 wave-container">
+                {icons.map((value) =>(
+                  <div className="white-container wave-letter" key={value}>
+                    <ImageComponent src={value} alt={value} height={60} width={60}/>
+                  </div>
+                ))}
+              {/* <div className="white-container">
                 <Image
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
                   alt="Dotnet"
@@ -80,7 +91,7 @@ export default function Home() {
                   width={60}
                   height={60}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
