@@ -39,7 +39,7 @@ export default function Home() {
               {/* "Get started" button, no idea what it could do? next page? */}
               <div>
                 <button onClick={() => router.push("/Pages/Projects")}  className="rounded w-fit py-4 px-16 text-white bg-[#3F8E00] shadow-md shadow-[#62BA1B]">
-                  Get started {">"}
+                  See some of my works {">"}
                 </button>
               </div>
             </div>
@@ -47,16 +47,16 @@ export default function Home() {
               <Image
                 src={HeadShot}
                 alt="headshot"
-                className="w-64 rounded-full "
+                className="w-64 rounded-full"
                 />
             </div>
           </div>
           {/* Worked with */}
           <div className="text-2xl mx-40 mt-20">
             Frameworks Worked With:
-            <div className="grid grid-flow-col mx-16 mt-10 grid-rows-1 gap-8 wave-container">
+            <div className="grid grid-flow-col grid-rows-1 gap-8 mx-16 mt-10">
                 {icons.map((value) =>(
-                  <div className="white-container wave-letter" key={value}>
+                  <div className="white-container" key={value}>
                     <ImageComponent src={value} alt={value} height={60} width={60}/>
                   </div>
                 ))}
