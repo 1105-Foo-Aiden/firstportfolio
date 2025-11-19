@@ -44,7 +44,7 @@ export default function page() {
               alt="Calculator Challenge"
               src={CalcChall}
               height={800}
-              width={1000}
+              width={1000} //TODO Fix Size of this img
               className="rounded-md"
             />
             <p className="mt-5 text-3xl text-emerald-600">Calculator Challenge</p>
