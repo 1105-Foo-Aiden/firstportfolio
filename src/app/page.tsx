@@ -1,9 +1,6 @@
 'use client'
 import Image from "next/image";
 import HeadShot from "./Assets/Headshot.jpg";
-import WilliamsAct from "./Assets/WilliamsAct.png";
-import PokeApi from "./Assets/PokeApi.png";
-import CourtMonitor from "./Assets/Courtmonitor.png";
 import { useRouter } from "next/navigation";
 import NavbarComponent from "./Components/NavbarComponent";
 import ImageComponent from "./Components/ImageComponent";
@@ -29,7 +26,7 @@ export default function Home() {
               </div>
               <div>
                 <p>
-                  Greetings, my name is Aiden Foo, I am a software developer
+                  Greetings, my name is Aiden Foo, a software developer
                   with over 1800 hours of coding experience and always willing to put
                   in the work to learn and grow my skills to be the best version
                   of myself that I can be. I'm so excited to you my work that I have
