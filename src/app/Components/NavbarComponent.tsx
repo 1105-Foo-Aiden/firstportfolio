@@ -16,7 +16,7 @@ export default function NavbarComponent() {
             <Link href={"/Pages/RecentWorks"}>Recent Works</Link>
           </li>
           <li>
-            <Link href={"#"}>Get in touch</Link>
+            <Link href={"/Pages/ContactMe"}>Get in touch</Link>
           </li>
         </ul>
       </div>

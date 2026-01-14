@@ -22,7 +22,7 @@ export default function page() {
                 className="rounded-md"
               />
               <p className="text-3xl text-emerald-600 mt-5">Court Monitor</p>
-              <p className="mt-5">Court Monitor is an application that allows different sport organizations to set up events. This was also my first fullstack project, collaborating with 2 other teammates that handled the front end of the project.</p>
+              <p className="mt-5">Court Monitor is an application that allows different sport organizations to set up events on a global calendar. This was my first fullstack project, collaborating with 2 other teammates that handled the front-end of the project.</p>
               <p className="mt-5"><span className="text-emerald-600">Personal contributions: </span> Entire back end framework and code using dotnet and C# and a relational database with a few tweaks</p>
           </div>
           <div className="grid grid-rows-auto h-fit">
@@ -33,7 +33,7 @@ export default function page() {
             />
             <p className="text-3xl text-emerald-600 mt-5">Williams Act</p>
             <p className="mt-5">Williams act is a redesign of a SJCOE application and the goal was to begin to recode for the site from Angular to React with a team of 12 of other developers in an agile development cycle over 3 months.</p>
-            <p className="mt-5"><span className="text-emerald-600">Personal contributions:</span> Password encryption and decryption from front to back end as well as endpoint creation and multiple pages on the frontend.</p>
+            <p className="mt-5"><span className="text-emerald-600">Personal contributions:</span> Password encryption and decryption from front to back end as well as endpoint creation and multiple frontend pages.</p>
           </div>
           <div className="grid grid-rows-auto">
             <Image

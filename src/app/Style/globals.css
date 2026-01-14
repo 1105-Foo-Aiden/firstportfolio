@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .imageZoom:hover {
   --webkit-transform: scale(1.5);
@@ -14,9 +13,9 @@ body{
   padding-right: 5rem;
   min-width: screen;
   height: screen;
-  background-color: #080808;
+  background: #080808;
+  background: linear-gradient(180deg, rgba(0,0,0,1), 0%, rgba(130,130,130,1), 100%);
   color: #9C9C9C;
-  font-family: "Space Mono", monospace;
 }
 
 .loader {
@@ -71,11 +70,16 @@ body{
   display: flex;
   justify-content: center;
   background-color: rgb(255 255 255 / 0.1 );
-  border: 2px, solid, rgb(255 255 255 / 0.5 );
+  border: 1px, solid, rgba(255 255 255, 0.2 );
+  background: rgba(255 255 255, 0.2 );
+  box-shadow: 0, 4px, 6px rgba(0, 0, 0, 0.1 );
   height: fit-content;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  border-radius: 0.25rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+
 }
 
 :any-link:hover{
