@@ -1,11 +1,10 @@
 "use client";
 
 import NavbarComponent from "@/app/Components/NavbarComponent";
-import Image from "next/image";
-import CourtMonitor from "../../Assets/Courtmonitor.png";
-import WilliamsAct from "../../Assets/WilliamsAct.png";
-import CalcChall from "../../Assets/CalculatorChallenge.png";
-import ProjectsCardComponent from "@/app/Components/ProjectsCardComponent";
+import CourtMonitor from "@/app/Assets/Courtmonitor.png";
+import WilliamsAct from "@/app/Assets/WilliamsAct.png";
+import CalcChall from "@/app/Assets/CalculatorChallenge.png";
+import StackedCardComponent from "@/app/Components/StackedCardComponent";
 
 export default function page() {
   return (
@@ -18,33 +17,33 @@ export default function page() {
           Projects I am proud of
         </h1>
         <div className="text-center px-16 grid grid-cols-3 gap-8">
-          <ProjectsCardComponent
+          <StackedCardComponent
             src={CourtMonitor}
             alt={"Court Monitor"}
-            projDesc={
+            Desc={
               "Court Monitor is an application that allows different sport organizations to set up events on a global calendar. This was my first fullstack project, collaborating with 2 other teammates that handled the front-end of the project."
             }
-            projContrib={
+            ExtraInfo={
               "Entire back end framework and code using dotnet and C# and a relational database with a few tweaks"
             }
           />
-          <ProjectsCardComponent
+          <StackedCardComponent
             src={WilliamsAct}
             alt={"Williams Act"}
-            projDesc={
+            Desc={
               "Williams act is a redesign of a SJCOE application and the goal was to begin to recode for the site from Angular to React with a team of 12 of other developers in an agile development cycle over 3 months."
             }
-            projContrib={
+            ExtraInfo={
               "Password encryption and decryption from front to back end as well as endpoint creation and multiple frontend pages."
             }
           />
-          <ProjectsCardComponent
+          <StackedCardComponent
             src={CalcChall}
             alt={"Calculator Challenge"}
-            projDesc={
+            Desc={
               "A challenge of recreating a tip calculator in React that includes the calculations and updates for both custom and picked tip percentages."
             }
-            projContrib={
+            ExtraInfo={
               "The reason is beacause of the perserverence to finish the challenge after two years of it being on the backburner which I personally am very proud of for not giving up on it."
             }
           />

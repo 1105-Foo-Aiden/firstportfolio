@@ -4,7 +4,7 @@ import "@/app/Style/globals.css"
 const space_mono = Space_Mono({ subsets: ["latin"], weight: "700", preload: true });
 
 export const metadata: Metadata = {
-  title: "Aiden Foo's Portfolio",
+  title: "Aiden Foo.com",
   description: "No AI needed",
 };
 
